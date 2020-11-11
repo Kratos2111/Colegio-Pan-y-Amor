@@ -1,0 +1,662 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<title>Matemáticas 6to: Radicales. </title>
+	<meta name="robots" content="index/follow">
+	<script
+		src="./Propiedades de las raíces (raíces escritas como potencias), con ejercicios resueltos_files/MathJax.js.descarga"
+		id=""></script>
+	<!-- Google Fonts -->
+	<link
+		href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+		rel="stylesheet">
+	<!-- Vendor CSS Files -->
+	<link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="../assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+	<link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+	<link href="../assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+	<!-- Template Main CSS File -->
+	<link href="../assets/css/style.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1 ">
+	<!-- goanaly -->
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-34239017-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function () {
+			var ga = document.createElement('script');
+			ga.type = 'text/javascript';
+			ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') +
+				'.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+	<script type="teXt/javascript">
+		function desplegar(tabla_a_desplegar) { 
+	var tablA = document.getElementById(tabla_a_desplegar); 
+	switch(tablA.style.display) { 
+	case "none": 
+	tablA.style.display = "block"; 
+	break; 
+	default: 
+	tablA.style.display = "none"; 
+	break; 
+	} 
+	} 
+</script>
+</head>
+
+<body>
+	<header id="header" class="sticky-top">
+		<div class="container d-flex align-items-center">
+			<img src="../assets/img/PYA.png" class="Picture_Header">
+			<h1 class="logo mr-auto">Matemáticas Sexto Grado<a href="index.html"></a></h1>
+			<nav class="nav-menu d-none d-lg-block">
+				<ul>
+					<li class="active"><a href="../index.html">Inicio</a></li>
+					<li class="drop-down"><a href="">Guía de Estudio</a>
+						<ul>
+							<li class="drop-down"><a href="#">Primer Semestre</a>
+								<ul>
+									<li><a href="https://drive.google.com/file/d/14yocYgL6tjeuGui3gEOiRSyGtWQJhcsm/view?usp=sharing"
+											target="_blank">Guía de Estudio 1</a></li>
+									<li><a href="https://drive.google.com/file/d/1cqADfNMfE4rPhlTrualLFilIIJ3NlmT1/view?usp=sharing"
+											target="_blank">Guía de Estudio 2</a></li>
+									<li><a href="https://drive.google.com/file/d/1THaixQ10YrB8r-k7jfZd2m0qDbRoFVuD/view?usp=sharing"
+											target="_blank">Guía de Estudio 3</a></li>
+									<li><a href="https://drive.google.com/file/d/1rrXmuL4mFjqTI5AJ6V-neTJQoDHQA-AD/view?usp=sharing"
+											target="_blank">Guía de Estudio 4</a></li>
+									<li><a href="https://drive.google.com/file/d/13FzeMCuzWE0YQLK-3pH3j8NshOBpK1ah/view?usp=sharing"
+											target="_blank">Guía de Estudio 5</a></li>
+								</ul>
+							</li>
+							<li class="drop-down"><a href="#">Segundo Semestre</a>
+								<ul>
+									<li><a href="https://drive.google.com/file/d/1Svgc3wc6dK6tZJmCWlx7Harb3SYdCXi3/view?usp=sharing"
+											target="_blank">Guía de Estudio 1</a></li>
+									<li><a href="https://drive.google.com/file/d/15OCJhYy8Fc8wGfnFgzUeIcVon_upAqEQ/view?usp=sharing"
+											target="_blank">Guía de Estudio 2</a></li>
+								</ul>
+							</li>
+						</ul>
+					<li><a href="../Contact Us/index.html">Contáctenos</a></li>
+				</ul>
+			</nav><!-- .nav-menu -->
+		</div>
+	</header><!-- End Header -->
+	<div>
+
+
+
+
+		<div class="hoja1 top">
+			<div class="cabecera">
+				<h2 align="left">1. Introducción y definiciones</h2>
+			</div>
+			<div class="contenido">
+				<p>Escribir las raíces como potencias nos permite aplicar las
+					<a style="color:#0059C0;" ref="../ExponenteS/index.html">propiedades de las potencias</a> (las
+					recordamos en el siguiente
+					apartado). Esto es muy útil para calcular productos y cocientes de raíces e, incluso, potencias y
+					raíces de raíces. </p>
+				<p>A continuación, recordamos los conceptos y propiedades que necesitamos.</p>
+				<h4 align="left">Radicación:
+					<span class="MathJax_Preview" style="color: inherit; display: none;"></span>
+					<span id="MathJax-Element-1-Frame" class="mjx-chtml MathJax_CHTML" tabindex="0"
+						style="font-size: 117%; position: relative;"
+						data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/math&gt;"
+						role="presentation">
+						<span id="MJXc-Node-1" class="mjx-math" aria-hidden="true">
+							<span id="MJXc-Node-2" class="mjx-mrow">
+								<span id="MJXc-Node-3" class="mjx-mi">
+									<span class="mjx-char MJXc-TeX-math-I"
+										style="padding-top: em; padding-bottom: 0.27em;"></span>
+								</span>
+							</span>
+						</span>
+						<span class="MJX_Assistive_MathML" role="presentation">
+							<math xmlns="http://www.w3.org/1998/Math/MathML">
+								<mi>n</mi>
+							</math>
+						</span>
+					</span>
+					<script type="math/tex" id="MathJax-Element-1"></script>
+				</h4>
+
+				<div class="definicion">
+					<p>
+						<em> Es la operación inversa a la potenciación. Y consiste en que dados dos números, llamados
+							radicando e índice, hallar un tercero, llamado raíz, tal que, elevado al índice, sea igual
+							al radicando.
+						</em>
+					</p>
+					<p align="center">
+						<img src="img/rad.jpg" class="rad_math" align="" alt="">
+					</p>
+					<p> </p>
+				</div>
+				<!--endDef-->
+				<h4 align="left">Ejemplo: </h4>
+				<div class="definicion">
+					<p align="center">
+						<img class="raíz_math" src="img/T1.png" alt="">
+					</p>
+					<p></p>
+				</div>
+				<!--End-->
+				<h4 align="left">Raíz escrita como potencia:</h4>
+				<div class="definicion">
+					<p>Podemos escribir la raíz \(\sqrt[n]{a}\) como la potencia con base \(a\) y exponente \(1/n\):</p>
+
+					<p>$$ \sqrt[n]{a} = a^\frac{1}{n}$$</p>
+
+					<br>
+				</div>
+				<!--EContenido-->
+			</div>
+			<!--EHoja1-->
+		</div>
+		<!--EContenedor-->
+		<div class="contenedor">
+			<div class="hoja1">
+				<div class="cabecera">
+					<h2 align="left">2. Propiedades de las potencias</h2>
+				</div>
+				<div class="contenido">
+					<p>Recordamos las propiedades básicas de las potencias.</p>
+					<div id="texto2" style="display: block;">
+						<br>
+						<table width="auto" border="0" align="center" cellspacing="0">
+							<tbody>
+								<tr>
+									<td width="131" height="76" align="center">
+										<strong>Producto</strong>
+										<p align="center">
+											<img src="./img/potenciaDEF1.png" alt=""
+												title="producto de potencias: a^m·a^n = a^(m+n)">
+										</p>
+									</td>
+									<td width="159" align="center">
+										<strong>Potencia</strong>
+										<p align="center">
+											<img src="./img/potenciaDEF2.png" alt=""
+												title="potencia de potencia: (a^b)^c = a^(b·c)">
+										</p>
+									</td>
+								</tr>
+								<tr>
+									<td align="center">
+										<strong>Cociente</strong>
+										<p align="center">
+											<img src="./img/potenciaDEF3.png" alt=""
+												title="cociente de potencias: (a^m)/(a^n) = a^(m-n)">
+										</p>
+									</td>
+									<td align="center">
+										<strong>Exponente negativo</strong>
+										<p align="center">
+											<img src="./img/potenciaDEF4.png" alt="" title="a^(-m) = 1/(a^m)">
+										</p>
+									</td>
+								</tr>
+								<tr>
+									<td align="center">
+										<strong>Inverso</strong>
+										<p align="center">
+											<img src="./img/potenciaDEF5.png" alt=""
+												title="inverso de potencia: (a/b)^(-1) = b/a">
+										</p>
+									</td>
+									<td align="center">
+										<strong>Inverso</strong>
+										<p align="center">
+											<img src="./img/potenciaDEF6.png" alt=""
+												title="inverso de inverso de potencia: 1/(a^-1) = a">
+										</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<!--Endtexto2-->
+				</div>
+				<!--EContenido-->
+
+			</div>
+			<!--EHoja1-->
+		</div>
+		<!--EContenedor-->
+
+
+		<div class="contenedor">
+
+			<div class="hoja1" style="height: auto !important;">
+				<div class="cabecera">
+					<h2 align="left">3. Propiedades de las raíces</h2>
+				</div>
+				<div class="contenido" style="height: auto !important;">
+
+					<p align="center">
+					</p>
+					<p>Si escribimos las raíces como potencias, obtenemos las siguientes propiedades:</p>
+
+					<h4 align="left">Producto de raíces:</h4>
+
+					<p align="center">
+						<img src="./img/P1.png" alt=""
+							title="El producto de raíces (del mismo orden) es la raíz del producto de sus radicandos">
+					</p>
+
+					<p>El producto de raíces (del mismo orden) es la raíz del producto de sus radicandos. </p>
+					<h4 align="left">Cociente de raíces:</h4>
+					<p align="center">
+						<img src="./img/P2.png" alt=""
+							title="El cociente de raíces (del mismo orden) es la raíz del cociente de sus radicandos">
+					</p>
+					<p>El cociente de raíces (del mismo orden) es la raíz del cociente de sus radicandos. </p>
+					<h4 align="left">Potencia de una raíz:</h4>
+					<p align="center">
+						<img src="./img/P3.png" alt=""
+							title="Podemos introducir el exponente de una raíz como el exponente del radicando">
+					</p>
+					<p>Podemos introducir el exponente de una raíz como el exponente del radicando. </p>
+					<h4 align="left">Raíz de una raíz:</h4>
+					<p align="center">
+						<img src="./img/P4.png" alt=""
+							title="La raíz de orden n de la raíz de orden n es la raíz de orden m·n"></p>
+					<p>La raíz de orden
+						<span class="MathJax_Preview" style="color: inherit; display: none;"></span>
+						<span id="MathJax-Element-20-Frame" class="mjx-chtml MathJax_CHTML" tabindex="0"
+							data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;m&lt;/mi&gt;&lt;/math&gt;"
+							role="presentation" style="font-size: 117%; position: relative;">
+							<span id="MJXc-Node-86" class="mjx-math" aria-hidden="true">
+								<span id="MJXc-Node-87" class="mjx-mrow">
+									<span id="MJXc-Node-88" class="mjx-mi">
+										<span class="mjx-char MJXc-TeX-math-I"
+											style="padding-top: 0.216em; padding-bottom: 0.27em;">m</span>
+									</span>
+								</span>
+							</span>
+							<span class="MJX_Assistive_MathML" role="presentation">
+								<math xmlns="http://www.w3.org/1998/Math/MathML">
+									<mi>m</mi>
+								</math>
+							</span>
+						</span>
+						<script type="math/tex" id="MathJax-Element-20">m</script> de la raíz de orden
+						<span class="MathJax_Preview" style="color: inherit; display: none;"></span>
+						<span id="MathJax-Element-21-Frame" class="mjx-chtml MathJax_CHTML" tabindex="0"
+							data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/math&gt;"
+							role="presentation" style="font-size: 117%; position: relative;">
+							<span id="MJXc-Node-89" class="mjx-math" aria-hidden="true">
+								<span id="MJXc-Node-90" class="mjx-mrow">
+									<span id="MJXc-Node-91" class="mjx-mi">
+										<span class="mjx-char MJXc-TeX-math-I"
+											style="padding-top: 0.216em; padding-bottom: 0.27em;">n</span>
+									</span>
+								</span>
+							</span>
+							<span class="MJX_Assistive_MathML" role="presentation">
+								<math xmlns="http://www.w3.org/1998/Math/MathML">
+									<mi>n</mi>
+								</math>
+							</span>
+						</span>
+						<script type="math/tex" id="MathJax-Element-21">n</script> es la raíz de orden
+						<span class="MathJax_Preview" style="color: inherit; display: none;"></span>
+						<span id="MathJax-Element-22-Frame" class="mjx-chtml MathJax_CHTML" tabindex="0"
+							data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;m&lt;/mi&gt;&lt;mo&gt;&amp;#xB7;&lt;/mo&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/math&gt;"
+							role="presentation" style="font-size: 117%; position: relative;">
+							<span id="MJXc-Node-92" class="mjx-math" aria-hidden="true">
+								<span id="MJXc-Node-93" class="mjx-mrow">
+									<span id="MJXc-Node-94" class="mjx-mi">
+										<span class="mjx-char MJXc-TeX-math-I"
+											style="padding-top: 0.216em; padding-bottom: 0.27em;">m</span>
+									</span>
+									<span id="MJXc-Node-95" class="mjx-mo MJXc-space2">
+										<span class="mjx-char MJXc-TeX-main-R"
+											style="padding-top: 0.003em; padding-bottom: 0.323em;">⋅</span>
+									</span>
+									<span id="MJXc-Node-96" class="mjx-mi MJXc-space2">
+										<span class="mjx-char MJXc-TeX-math-I"
+											style="padding-top: 0.216em; padding-bottom: 0.27em;">n</span>
+									</span>
+								</span>
+							</span>
+							<span class="MJX_Assistive_MathML" role="presentation">
+								<math xmlns="http://www.w3.org/1998/Math/MathML">
+									<mi>m</mi>
+									<mo>·</mo>
+									<mi>n</mi>
+								</math>
+							</span>
+						</span>
+						<script type="math/tex" id="MathJax-Element-22">m·n</script>.
+					</p>
+					<p><strong>Nota:</strong> en el Ejercicio 5 tenemos otras dos propiedades.</p>
+				</div>
+				<!--EContenido-->
+
+			</div>
+			<!--EHoja1-->
+		</div>
+		<!--EContenedor-->
+		<div class="contenedor">
+			<div class="hoja1" style="height: auto !important;">
+				<div class="cabecera">
+					<h2 align="left">4. Ejercicios resueltos</h2>
+				</div>
+				<div class="contenido" style="height: auto !important;">
+					<div class="resueltos">
+						<p><strong>Nota previa:</strong> cuando haya dos raíces, escribiremos sólo la positiva.</p>
+						<p>En todos los ejercicios se tiene que simplificar el resultado.</p>
+						<h3 align="left">Ejercicio 1</h3>
+						<p>Calcular los siguientes productos de raíces cúbicas y quintas:</p>
+						<p align="center">
+							<img src="./img/E1.png" alt=""
+								title="productos de raíces cúbicas y quintos del ejercicio 1">
+						</p>
+						<div class="ver2" onclick="desplegar(&#39;respuestaE1&#39;)">Solución</div>
+						<div id="respuestaE1" style="display: block;">
+							<p>Aplicamos la propiedad del producto de raíces.</p>
+							<h4 align="left">Primer producto:</h4>
+							<p align="center">
+								<img src="./img/E1-1.png" alt="" title="raíz_cúbica(2)·raíz_cúbica(4) = 2">
+							</p>
+							<p>
+								Observad que la raíz se cancela porque el radicando es una potencia con exponente 3 y el
+								orden de la raíz es 3.
+							</p>
+							<hr>
+						</div>
+						<!--EndRespE1-->
+						<h3 align="left">Ejercicio 2</h3>
+						<p>Calcular los siguientes cocientes de raíces cuadradas y cúbicas:</p>
+						<p align="center">
+							<img src="./img/E2.png" alt=""
+								title="cocientes de raíces cuadradas y cúbicas del ejercicio 2">
+						</p>
+						<div class="ver2" onclick="desplegar(&#39;respuestaE2&#39;)">Solución</div>
+						<div id="respuestaE2" style="display: block;">
+							<p>Aplicamos la propiedad del cociente de raíces.</p>
+							<h4 align="left">Primera división:</h4>
+							<p align="center">
+								<img src="./img/E2-1.png" alt="" title="raíz(18)/raíz(2) = 3">
+							</p>
+							<hr>
+						</div>
+						<!--EndRespE2-->
+						<h3 align="left">Ejercicio 3</h3>
+						<p>Calcular el siguiente cociente de raíces cuadradas y cúbicas:</p>
+						<p align="center">
+							<img src="./img/E3.png" alt=""
+								title="producto de raíces cuadradas y cúbicas del ejercicio 3">
+						</p>
+						<div class="ver2"  onclick="desplegar(&#39;respuestaE3&#39;)">Solución</div>
+						<div id="respuestaE3" style="display: none;">
+
+							<p>Observad que no todas las raíces tienen el mismo orden. </p>
+
+							<p>Como tenemos un producto de raíces y el producto conmuta, podemos cambiar el orden:</p>
+
+							<p align="center">
+								<img src="./img/E3-1.png" alt=""
+									title="reordenamos los factores del producto de raíces">
+							</p>
+							<p>
+								Así, podemos multiplicar las dos raíces de la izquierda y las dos de la derecha porque
+								tienen el mismo orden:
+							</p>
+							<p align="center">
+								<img src="./img/E3-2b.png" alt=""
+									title="raíz_cúbica(6)·raíz_cúbica(9/2)·raíz(5)·raíz(5) = 15">
+							</p>
+							<hr>
+						</div>
+						<!--EndRespE3-->
+						<h3 align="left">Ejercicio 4</h3>
+						<p>¿La suma de raíces de orden
+							<span class="MathJax_Preview" style="color: inherit; display: none;"></span>
+							<span id="MathJax-Element-23-Frame" class="mjx-chtml MathJax_CHTML" tabindex="0"
+								data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/math&gt;"
+								role="presentation" style="font-size: 117%; position: relative;">
+								<span id="MJXc-Node-97" class="mjx-math" aria-hidden="true">
+									<span id="MJXc-Node-98" class="mjx-mrow">
+										<span id="MJXc-Node-99" class="mjx-mi">
+											<span class="mjx-char MJXc-TeX-math-I"
+												style="padding-top: 0.216em; padding-bottom: 0.27em;">n</span>
+										</span>
+									</span>
+								</span>
+								<span class="MJX_Assistive_MathML" role="presentation">
+									<math xmlns="http://www.w3.org/1998/Math/MathML">
+										<mi>n</mi>
+									</math>
+								</span>
+							</span>
+							<script type="math/tex" id="MathJax-Element-23">n</script> es la raíz de orden
+							<span class="MathJax_Preview" style="color: inherit; display: none;"></span>
+							<span id="MathJax-Element-24-Frame" class="mjx-chtml MathJax_CHTML" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/math&gt; "role="presentation" style="font-size: 117%; position: relative;">
+								<span id="MJXc-Node-100" class="mjx-math" aria-hidden="true">
+									<span id="MJXc-Node-101" class="mjx-mrow">
+										<span id="MJXc-Node-102" class="mjx-mi">
+											<span class="mjx-char MJXc-TeX-math-I" style="padding-top: 0.216em; padding-bottom: 0.27em;">n</span>
+										</span>
+									</span>
+								</span>
+								<span class="MJX_Assistive_MathML" role="presentation">
+									<math xmlns="http://www.w3.org/1998/Math/MathML">
+										<mi>n</mi>
+									</math>
+								</span>
+							</span>
+							<script type="math/tex" id="MathJax-Element-24">n</script> de la suma de sus radicandos?
+						</p>
+						<p align="center">
+							<img src="./img/E4.png" alt="" title="ejercicio 4">
+						</p>
+						<div class="ver2" onclick="desplegar(&#39;respuestaE4&#39;)">Solución</div>
+						<div id="respuestaE4" style="display: block;">
+							<p>La propiedad no es cierta. Veamos un contraejemplo: </p>
+							<p align="center">
+								<img src="./img/E4-1b.png" alt="" title="raíz(4)+raíz(4) = 4">
+							</p>
+							<p>Sin embargo, </p>
+							<p align="center">
+								<img src="./img/E4-2b.png" alt="" title="raíz(4+4) = 2·raíz(2)">
+							</p>
+							<hr>
+						</div>
+						<!--EndRespE4-->
+						<h3 align="left">Ejercicio 5</h3>
+						<p>Demostrar las siguientes propiedades:</p>
+						<ul>
+							<li>
+								<p>Propiedad 1:</p>
+								<p align="center">
+									<img src="./img/E5.png" alt="" title="propiedad 1 de raíces del ejercicio 5"></p>
+							</li>
+							<li>
+								<p>Propiedad 2:</p>
+								<p align="center">
+									<img src="./img/E5b.png" alt="" title="propiedad 2 de raíces del ejercicio 5">
+								</p>
+							</li>
+						</ul>
+						<div class="ver2" onclick="desplegar(&#39;respuestaE5&#39;)">Solución</div>
+						<div id="respuestaE5" style="display: block;">
+							<p>
+								Vamos a operar en el lado izquierdo hasta transformarlo en la expresión del lado
+								derecho.
+							</p>
+
+							<h4 align="left">Propiedad 1:</h4>
+							<p>Escribimos la raíz como una potencia:</p>
+							<p align="center">
+								<img src="./img/E5-1.png" alt="" title="escribimos la raíz como una potencia ">
+							</p>
+
+							<p>Multiplicamos los exponentes (potencia de potencia):</p>
+							<p align="center">
+								<img src="./img/E5-2.png" alt="" title="multiplicamos los exponentes ">
+							</p>
+
+							<p>Hacemos el paso inverso:</p>
+
+							<p align="center">
+								<img src="./img/E5-3.png" alt="" title="reescribimos la potencia como una potencia de una potencia ">
+							</p>
+							<p>Escribimos la potencia como una raíz:</p>
+							<p align="center">
+								<img src="./img/E5-4.png" alt="" title="el resultado final es la (raíz_n-ésima(a^p))^m">
+							</p>
+							<h4 align="left">Propiedad 2:</h4>
+							<p>Escribimos las raíces como potencias:</p>
+							<p align="center">
+								<img src="./img/E5b-1.png" alt="" title="escribimos las raíces como potencias">
+							</p>
+							<p>Multiplicamos los exponentes:</p>
+							<p align="center">
+								<img src="./img/E5b-2.png" alt="" title="multiplicamos los exponentes (potencia de potencia)"></p>
+							<p>Ahora, deshacemos el cambio:</p>
+							<p align="center">
+								<img src="./img/E5b-3.png" alt="" title="escribimos en forma de raíces">
+							</p>
+							<hr>
+						</div>
+						<!--EndRespE5-->
+						<p>
+							En adelante, lo que haremos es escribir las raíces como potencias con exponente fraccionario
+							para aplicar las propiedades de las potencias.
+						</p>
+						<h3 align="left">Ejercicio 6</h3>
+						<p>Calcular la siguiente potencia:</p>
+						<p align="center">
+							<img src="./img/potenciaR1.png" alt="" title="potencia/raíz del problema 1">
+						</p>
+						<div class="ver2" onclick="desplegar(&#39;respuesta1&#39;)">Solución</div>
+						<div id="respuesta1" style="display: block;">
+							<p>Tenemos una raíz cuadrada escrita en forma de potencia:</p>
+							<p align="center">
+								<img src="./img/PotenciaR1-1.png" alt=""
+									title="9 elevado a 1/2 es la raíz cuadrada de 9">
+							</p>
+							<p>
+								Sabemos que la raíz cuadrada de 9 es 3, pero podemos escribir 9 como
+								<span class="MathJax_Preview" style="color: inherit; display: none;"></span>
+								<span id="MathJax-Element-25-Frame" class="mjx-chtml MathJax_CHTML" tabindex="0"
+									data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;msup&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;/math&gt;"
+									role="presentation" style="font-size: 117%; position: relative;">
+									<span id="MJXc-Node-103" class="mjx-math" aria-hidden="true">
+										<span id="MJXc-Node-104" class="mjx-mrow">
+											<span id="MJXc-Node-105" class="mjx-msubsup">
+
+												<span class="mjx-base">
+													<span id="MJXc-Node-106" class="mjx-mn">
+														<span class="mjx-char MJXc-TeX-main-R" style="padding-top: 0.377em; padding-bottom: 0.377em;">3</span>
+													</span>
+												</span>
+
+												<span class="mjx-sup"
+													style="font-size: 70.7%; vertical-align: 0.59em; padding-left: 0px; padding-right: 0.071em;">
+													<span id="MJXc-Node-107" class="mjx-mn">
+														<span class="mjx-char MJXc-TeX-main-R" style="padding-top: 0.377em; padding-bottom: 0.323em;">2</span>
+													</span>
+												</span>
+
+											</span>
+										</span>
+									</span>
+									<span class="MJX_Assistive_MathML" role="presentation">
+										<math xmlns="http://www.w3.org/1998/Math/MathML">
+											<msup>
+												<mn>3</mn>
+												<mn>2</mn>
+											</msup>
+										</math>
+									</span>
+								</span>
+								<script type="math/tex" id="MathJax-Element-25">3^2</script>
+								para dejar claro en la raíz
+								cuadrada de un cuadrado se pueden eliminar la raíz y el exponente:
+							</p>
+							<p align="center">
+								<img src="./img/PotenciaR1-2.png" alt="">
+							</p>
+							<hr>
+						</div>
+						<!--EndResp1-->
+						<h3 align="left">Ejercicio 7</h3>
+						<p>Escribir la potencia como una raíz:</p>
+
+						<p align="center">
+							<img src="./img/potenciaR2.png" alt="" title="potencia/raíz del problema 2">
+						</p>
+
+						<div class="ver2" onclick="desplegar(&#39;respuesta2&#39;)">Solución</div>
+						<div id="respuesta2" style="display: block;">
+							<p>Recordad la propiedad:</p>
+							<p align="center">
+								<img src="./img/P3.png" alt=""
+									title="Podemos introducir el exponente de una raíz como el exponente del radicando">
+							</p>
+							<p>Como el denominador del exponente es 4, es una raíz de orden cuarto (raíz cuarta):</p>
+							<p align="center">
+								<img src="./img/PotenciaR2-1.png" alt=""
+									title="3 elevado a 3/4 es la raíz cuarta de 27"></p>
+							<p>N o podemos simplificar más la raíz.</p>
+							<hr>
+						</div>
+						<!--EndResp2-->
+					</div>
+				</div>
+			</div>
+		</div>
+		<section class="section_youtube">
+			<h2> Explicación </h2>
+			<div class="video_youtube">
+
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/Cfl8HcObbGA" frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+
+
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/GgVW0-Yre9Q" frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+			</div>
+		</section>
+		<section class="hr">
+			<hr>
+		</section>
+		<footer id="footer">
+			<div class="container d-md-flex py-4">
+				<div class="mr-md-auto text-center text-md-left">
+					<div class="copyright">
+						&copy; Copyright <strong><span>Colegio Pan y Amor</span></strong>. All Rights Reserved
+					</div>
+					<div class="credits">
+						Webgrafía: <a href="https://www.matesfacil.com/">MatesFacil</a> <br>
+						Credit to <a>BootstrapMade</a>
+					</div>
+				</div>
+		</footer><!-- End Footer -->
+		<!-- Vendor JS Files -->
+		<script src="../assets/vendor/jquery/jquery.min.js"></script>
+		<!-- Template Main JS File-->
+		<script src="../assets/js/main.js"></script>
+		<script src="../assets/vendor/jquery/jqu"></script>
+</body>
+
+</html>
