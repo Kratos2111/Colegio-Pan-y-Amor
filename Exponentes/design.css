@@ -1,0 +1,258 @@
+
+div.Container-T{
+    color: white;
+    font-size: 18pt;
+    padding-left: 2em;
+    padding-top: 0.2em;
+    height: 2em;
+    text-align: justify;
+}
+div.Container-T ul{
+    font-size: 12pt;
+    float: right;
+    margin-right: 1em;
+}
+
+div.Container-T ul li a{
+    color: white;
+}
+.shadow-box-radio{
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 0.2px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.15);
+}
+.box{
+    color: white;
+    box-shadow: none;
+    border-style: none;
+    margin: 1em;
+}
+.box.left{
+    width: 50vw;
+    border-style: solid;
+    color: #444444;
+}
+.Head-p{
+    font-size: 20pt;
+    padding-left: 2em;
+    font-weight: 700;
+}
+.texto-p{
+    padding: 1em;
+    padding-left: 4em;
+    font-size: 15pt;
+}
+.text-14{
+    font-size: 16pt;
+    font-weight: 600;
+}
+.Picture1{
+    height: 15em;
+    margin: 1em;
+    margin-left: 2em;
+    margin-top: 4em;
+    transition-duration: 100ms;
+}
+.Container{
+    background-color: #000080;
+    display: inline-flex;
+    width: 100%;
+}
+.box-examp{
+    background-color: white;
+    width: 30%;
+    height: auto;
+    margin-right: 1em;
+    padding-top: 0em;
+    float: right;
+}
+.text-center{
+    text-align: center;
+}
+ul.text-center li{
+    padding: 0.5em;
+}
+.Picture1:hover{
+    transform: scale(1.1);
+}
+.Super-titule{
+    color: white;
+    font-size: 16pt;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-left: 1em;
+}
+.example{
+    font-size: 15pt;
+    text-align: center;
+}
+.blue{
+    background: #0080ff;
+}
+.green{
+    background-color: #00c600;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: #dacf07;
+}
+.yellow:hover{
+    background-color:  #beb504;
+}
+.blue:hover{
+    background-color: #46a3ff;
+}
+.box-examples{
+    width: 48%;
+    height: auto;
+    margin-left: 1em;
+    transition-duration: 0.3s;
+}
+.box-glosario{
+    margin: 1em;
+    width: 40%;
+    text-align: justify;
+}
+.box-examples ul{
+    display: flex;
+}
+.box-examples ul li{
+    border-style: solid;
+    border-width: 1px;
+    margin: 0.3em;
+    padding: 1em;
+    display: block;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    transition-duration: 0.3s;
+    color: whitesmoke;
+    width: auto;
+}
+.box-examples ul li:hover{
+    transform: scale(1.03);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+mjx-container.MathJax.CtxtMenu_Attached_0{
+    margin: 0em;
+}
+.box-pot{
+    margin: 1em;
+    height: auto;
+    background-color: white;
+    width: 25em;
+    float: right;
+    position: relative;
+    top: -8em;
+}
+div.box-pot p{
+    padding: 0.5em;
+}
+div.box-pot ul li{
+    padding: 0.5em;
+}
+#button{
+    display: none;
+}
+#footer{
+    width: 100%;
+}
+@media screen and (max-width: 600px)
+{
+   .Container{
+       height: auto;
+       display: block;
+   }
+   .Picture1.shadow-box-radio{
+       transform: scale(1);
+       margin-left: 3em;
+   }
+   div.shadow-box-radio{width: auto;}
+   .box-examp{float: none;margin: 1em;}
+   .box-pot{float: none;}
+   .box-examples{margin: 1em;}
+   .box-examples.shadow-box-radio ul{padding-left: 0em;}
+   .box-examples ul li{
+       padding: 0.2em;
+   }
+}
+
+th{
+    font-size: 16pt;
+    padding: 0.5em;
+}
+td{
+    font-size: 14pt;
+}
+@media only screen and (max-width: 375px)
+{
+    .Picture1.shadow-box-radio{margin-left: 1em;}
+}
+@media only screen and (min-width: 1360px)
+{   
+    div.Box-contenedor{
+        width: 80%;
+    }
+    img.Picture1{
+        margin-top: 2em;
+        transform: scale(1.1);
+        margin-left: 5em;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .box-pot{
+        top: 0em;
+    }
+    .box-examples{
+        width: 50%;
+    }
+    .shadow-box-radio{
+        font-size: 95%;
+    }
+    th{font-size: 14pt;}
+    td{font-size: 11pt;}
+    .texto-p{
+        padding-left: 0.em;
+        padding-right: 0em;
+        font-size: 13pt;
+    }
+    .Head-p{padding-left: 0em;}
+}
+@media only screen and (max-width: 834px)
+{
+    .box-examples{
+        width: 65%;
+    }
+    .Picture1{
+        transform: scale(0.9);
+        margin-left: 1em;
+        margin-top: 2em;
+    }
+    .texto-p{
+        padding-left: 0em;
+        padding-right: 0em;
+        font-size: 11pt;
+    }
+    .Head-p{padding-left: 0em;}
+    .shadow-box-radio{font-size: 90%;}
+    .box-pot{top: 0em;}
+    th{font-size: 14pt;}
+    td{font-size: 11pt;}
+    .box-glosario{width: 50%;}
+    .text-14{font-size: 13pt;}
+}
+@media only screen and (max-width: 768px){
+    .box-pot{
+        width: 22em;
+    }
+    .box-examples ul{
+        padding-left: 1em;
+    }
+}
+.Box-contenedor{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
