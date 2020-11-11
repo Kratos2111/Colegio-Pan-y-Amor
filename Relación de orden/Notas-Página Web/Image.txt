@@ -1,0 +1,32 @@
+    </h1>
+                     <a href="#" id="btn-toggle" class="btn-toggle">Abrir</a>
+                   <div align="center" style=" border: 2px solid #41b2d5; margin:0 300px 0 300px; border-radius: 25px; " > <div class="wrap"> 
+                        <h1 align="left" style="margin:12px 0 0 12px;  ">Ejemplos:</h1> 
+                     <h1> 
+                     	<font color="#41b2d5" size="2"> 
+                           $$ 2 < 3 $$ 
+                           $$  3 < \frac{14}{3}$$ 
+                           $$ \frac{25}{8}<5.89$$ 
+                           $$ -5 < 1 $$ 
+                           $$ -89 < - \frac{7}{8}$$ 
+
+                       </font>
+                          <!--END Image -->
+                 </h1> 
+                 </div>
+                   </div>
+                         
+                   
+                     <p>Cuando utilizamos este símbolo, escribimos a su izquierda el número que es menor y a su derecha el que es mayor.</p>    
+                     
+                     <p><strong>Regla mnemotécnica:</strong> el lado izquierdo del símbolo (la punta) es más pequeña (menor)
+                     que el lado derecho (la apertura).</p> 
+
+                     <p><strong>Nota:</strong> el signo "&lt;" también se lee como <i>menor estrictamente que</i>.</p>   
+-------------------------------------------------------------------------------------------------------   
+
+ 
+
+
+
+

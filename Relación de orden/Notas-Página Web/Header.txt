@@ -1,0 +1,21 @@
+<!-- Parte de Responsive del Header--> 
+
+#square_Blue{ 
+                 border: 5px    ; 
+                 border-bottom: 25px;
+                 border-radius: 5em ;
+                 width: 600px ; 
+                 height: 14px;  
+                 background-color: #174cdd; 
+                 position: absolute; 
+                 top: 3.75em; 
+                 left:0.9em; 
+             }   
+
+            .Next_Topic{left:17em; }   
+           
+
+                                      }   
+                 
+
+<!-- ---->
