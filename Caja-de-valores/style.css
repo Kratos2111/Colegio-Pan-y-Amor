@@ -1,0 +1,55 @@
+.Container-txt{
+    width: 100%;
+    background-color: #0020ff;
+    color: white;
+    display: flex;
+}
+.Imagenmain{
+    margin: 1em;
+    width: 40%;
+}
+.Txt-cont{
+    padding-right: 10%;
+    margin-top: 1em;
+    font-size: 15pt;
+    width: 55%;
+    float: right;   
+}
+.Txt-cont header{
+    font-size: 25pt;
+    font-weight: 600;
+    padding-right: 5em;
+}
+.Responsive-Container1{
+    display: inline-flex;
+}
+.Box-div-shadow{
+    font-size: 14pt;
+    margin: 1em;
+    border: solid 1px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.20);
+}
+.Box-div-shadow header{
+    padding: 0.1em;
+    padding-left: 1em;
+    font-size: 18pt;
+}
+.Box-div-shadow p{
+    padding: 1em;
+}
+.Magn{
+    width: 50%;
+    float: right;
+}
+.howwork{
+    width: 40%;
+}
+.green{
+    background-color: #008080;
+    color: white;
+}
+.blue{
+    background-color: #0080ff;
+    color: white;
+}
